@@ -10,4 +10,8 @@ import numpy as np
 import chart_studio.plotly as py
 py.plot(fig, filename = 'gdp_per_cap', auto_open=True)
 
-# 
+# Rotate axis 
+
+fig.update_xaxes(tickangle=45
+
+
