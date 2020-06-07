@@ -1,0 +1,13 @@
+# Import the libraries 
+
+import plotly as py
+import plotly.graph_objs as go
+import numpy as np
+
+
+# Uploading chart to the plotly studio 
+
+import chart_studio.plotly as py
+py.plot(fig, filename = 'gdp_per_cap', auto_open=True)
+
+# 
