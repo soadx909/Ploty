@@ -1,0 +1,25 @@
+#Initial plotly setup
+
+from plotly.offline import iplot
+import plotly.graph_objs as go
+import numpy as np
+
+#Importing chart studio
+
+import chart_studio.plotly as py
+py.plot(trace1, filename = 'Expense', auto_open=True)
+
+go.layout(
+    title="Plot Title",
+    xaxis_title="x Axis Title",
+    yaxis_title="y Axis Title",
+    font=dict(
+        family="Courier New, monospace",
+        size=18,
+        color="#7f7f7f")
+        
+ # Plot background
+ 
+ Layout = Layout(
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)'
